@@ -1,0 +1,83 @@
+.main{
+    background:url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg") center no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40rem;
+    margin: 0 auto;
+}
+.img_gradient{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+#Lang {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:rgb(19,22,22);
+    color:rgb(243,243,243);
+    border: 0.5px solid rgb(96,97,97);
+}
+hr{
+    width: 99%;
+    margin-top: 50px;
+    border: solid 0.8px grey;
+}
+select:hover {
+    border: solid 1px white;
+}
+
+.main h1{
+    font-weight: bolder;
+}
+.main__content,.main__div-email{
+    z-index: 2;
+    margin:auto;
+}
+.main__div-email input{
+    width: 20rem;
+    border:solid grey 1px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(51, 49, 49)
+}
+.main__content h3{
+    font-weight: 500;
+}
+.main__div-email{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.main__div-email div{
+    display: flex;
+    gap: 20px;
+}
+.main__div-email button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+}

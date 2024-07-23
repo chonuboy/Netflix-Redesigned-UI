@@ -1,0 +1,37 @@
+.footer{
+    color: grey;
+    margin: auto;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-around;   
+}
+.footer__list ul li{
+    margin-top: 20px;
+    border-bottom: solid grey 0.5px;
+    width: fit-content;
+}
+
+#inter,.footer__name{
+    text-align: left;
+    margin-top: 30px;
+}
+.num{
+    border-bottom: solid grey 0.5px;
+    width: fit-content;
+}
+#inter{
+    background-color: rgb(19,22,22);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+hr{
+    width: 99%;
+    height: 5px;
+    background-color: grey;
+}

@@ -1,0 +1,149 @@
+.all {
+    position: relative;
+    right: 25px;
+    margin: 10rem auto;
+    position: relative;
+    bottom: 2rem;
+    padding: 30px;
+    background: transparent;
+    border: solid white 1px;
+    box-shadow: 0 0 10px 10px black;
+    backdrop-filter: blur(30px);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    height: max-content;
+}
+
+input,button,select{
+    font-family: 'poppins';
+}
+
+.bg {
+    background: url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg") center no-repeat;
+    height: 130vh;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+}
+
+.all div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#remember {
+    position: absolute;
+    left: 3rem;
+    bottom: 6rem;
+}
+
+.tick {
+    display: flex;
+    gap: 10px;
+}
+
+.remember__text {
+    position: absolute;
+    left: 5rem;
+    bottom: 5.75rem;
+}
+
+.or,
+.sign {
+    margin: 0 auto;
+}
+
+.mail,
+.password {
+    width: 20rem;
+    border: solid grey 1px;
+    border-radius: 2px;
+    outline: none;
+    padding: 20px;
+    background-color: rgb(17, 17, 16)
+}
+
+.mail,
+.password:focus {
+    color: white;
+}
+
+.sign {
+    width: 22.5rem;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign__in-code {
+    width: 22.5rem;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    background-color: rgb(64, 65, 65, 0.7);
+    border: none;
+    border-radius: 2px;
+}
+
+.sign__footer {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .all {
+        width: max-content;
+        height: 450px;
+    }
+
+    .all form {
+        gap: 10px;
+    }
+
+    .bg {
+        height: 110vh;
+    }
+
+    .tick {
+        display: flex;
+        gap: 5px;
+    }
+
+    .remember__text {
+        position: absolute;
+        left: 5rem;
+        bottom: 4rem;
+    }
+
+    #remember {
+        position: absolute;
+        left: 3rem;
+        bottom: 4.27rem;
+    }
+    .mail,.password,.sign,.sign__in-code{
+        width: 13rem;
+    }
+    .sign__in-code{
+        position: relative;
+        left: 20px;
+    }
+
+}
