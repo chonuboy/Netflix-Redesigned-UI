@@ -83,12 +83,15 @@ select:hover {
         padding:5px;
     }
     .main__div-email div{
-        margin:0 auto;
         gap:5px;
         width:250px;
     }
     .main__div-email input{
-        width:10rem;
-        padding:5px;
-}
+        width:15rem;
+        padding:2px;
     }
+    .main__div-email button{
+        padding:5px;
+        font-size:10px;
+    }
+}
