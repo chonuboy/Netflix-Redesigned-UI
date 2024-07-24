@@ -83,8 +83,6 @@ select:hover {
     .main__div-email div{
         gap:10px;
         width:350px;
-        position:relative;
-        right:30px;
     }
     .main__div-email input{
         height:2rem;
@@ -93,7 +91,7 @@ select:hover {
     .main__div-email button{
         padding:5px;
         font-size:10px;
-        height:2rem;
+        height:2.2rem;
         width:7rem;
         
     }
