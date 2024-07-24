@@ -35,6 +35,7 @@ const Profile = () => {
           <img className="user__img" src={img} alt="" />
           <input type="file" onChange={(e)=>changeImage(e)} className="img__inp" />
         </div>
+        <div className="plans__container">
         <ul className='main__list'>
           <li className='sub__header'>Basic Subscription</li>
           <li><ul className='sub__list'>
@@ -195,9 +196,13 @@ const Profile = () => {
             </ul>
           </li>
         </ul>
+        </div>
         <button className='logout__btn' onClick={logOut}>Logout</button>
       </div>
+      <div className="foot">
       <Footer />
+      </div>
+      
     </>
   )
 }

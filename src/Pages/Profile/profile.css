@@ -43,7 +43,7 @@
     margin-top: 50px;
     border: none;
     border-radius: 10px;
-    width: 30rem;
+    width: 10rem;
     height: 30px;
     padding: 5px 10px;
     background-color: red;
@@ -67,29 +67,21 @@
 .img__inp:hover{
     outline: none;
 }
+.plans__container{
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.foot{
+    width:99.4%;
+}
 @media screen and (max-width:600px) {
-    .profile__body{
-        padding: 5px;
-        width: 26rem;
-    }
-    .user__img{
-        width: 140px;
-        height: 140px;
-    }   
-    .img__uploader{
-        gap: 10px;
-        margin: 10px;
-    }
-    .sub__list{
-        line-height: 1.4;
-        gap: 1rem;
-        font-size: smaller;
-    }
-    .logout__btn{
-        width: 20rem;
-        text-align: center;
-    }
     .sub__header{
         right: 0;
+    }
+
+    .sub__list{
+        gap: 50px;
     }
 }
