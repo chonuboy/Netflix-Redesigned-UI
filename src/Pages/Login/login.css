@@ -84,19 +84,17 @@ select:hover {
         gap:10px;
     }
     .main__div-email div{
-        gap:5px;
+        gap:10px;
         width:250px;
     }
     .main__div-email input{
-        width:17rem;
-        height:5rem;
+        height:2rem;
         padding:2px;
     }
     .main__div-email button{
         padding:5px;
         font-size:10px;
-        width:4rem;
-        height:5rem;
+        height:2rem;
         
     }
 }
