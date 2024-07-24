@@ -118,7 +118,7 @@ input,button,select{
     }
     
     .bg{
-        width: 95.6%;
+        width: 95.5%;
         height: 100%;
     }
     
@@ -134,7 +134,7 @@ input,button,select{
     .remember__text {
         position: absolute;
         left: 5rem;
-        bottom: 2.75rem;
+        bottom: 3rem;
     }
 
     #remember {
