@@ -31,8 +31,10 @@
         width: 20rem;
         text-align: center;
         padding: 20px;
-        padding-bottom: 50px;
         font-size: small;
         backdrop-filter: blur(8px);
+    }
+    .img-bg{
+        padding-bottom: 100px;
     }
 }
