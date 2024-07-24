@@ -79,6 +79,9 @@ select:hover {
     border-radius: 5px;
 }
 @media screen and (max-width:600px){
+    .main__div-email{
+        padding:5px;
+    }
     .main__div-email div{
         margin:0 auto;
         gap:5px;
