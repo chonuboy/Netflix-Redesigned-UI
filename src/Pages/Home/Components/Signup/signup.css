@@ -1,9 +1,4 @@
 .all {
-    position: relative;
-    right: 25px;
-    margin: 10rem auto;
-    position: relative;
-    bottom: 2rem;
     padding: 30px;
     background: transparent;
     border: solid white 1px;
@@ -14,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     width: 25rem;
-    height: max-content;
 }
 
 input,button,select{
@@ -23,11 +17,14 @@ input,button,select{
 
 .bg {
     background: url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg") center no-repeat;
-    height: 130vh;
+    height: 108vh;
     position: absolute;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
     top: 0;
-    width: 100%;
+    width: 97.5%;
     background-size: cover;
 }
 
@@ -107,40 +104,49 @@ input,button,select{
 .sign__footer {
     margin-bottom: 10px;
 }
-
+.signup__foot{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 103%;
+}
 @media screen and (max-width:600px) {
     .all {
+        margin-top: 10px;
         width: max-content;
         height: 450px;
     }
-
+    
+    .bg{
+        width: 95.6%;
+        height: 100%;
+    }
+    
     .all form {
         gap: 10px;
     }
-
-    .bg {
-        height: 110vh;
-    }
-
+    
     .tick {
         display: flex;
         gap: 5px;
     }
-
+    
     .remember__text {
         position: absolute;
         left: 5rem;
-        bottom: 4rem;
+        bottom: 2.75rem;
     }
 
     #remember {
         position: absolute;
         left: 3rem;
-        bottom: 4.27rem;
+        bottom: 3rem;
     }
+    
     .mail,.password,.sign,.sign__in-code{
         width: 13rem;
     }
+    
     .sign__in-code{
         position: relative;
         left: 20px;

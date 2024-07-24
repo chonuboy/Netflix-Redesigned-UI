@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 97.5vw;
+    width: 99vw;
     height: 30px;
     top: 0;
     padding: 12px;
@@ -34,4 +34,9 @@
     position: relative;
     top: 2px;
     object-fit: contain;
+}
+@media screen and (max-width:600px){
+    .nav{
+        width: 97.5vw;
+    }    
 }
