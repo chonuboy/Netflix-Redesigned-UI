@@ -82,7 +82,7 @@ select:hover {
 @media screen and (max-width:600px){
     .main__div-email div{
         gap:10px;
-        width:300px;
+        width:350px;
         position:relative;
         right:30px;
     }
@@ -93,8 +93,8 @@ select:hover {
     .main__div-email button{
         padding:5px;
         font-size:10px;
-        height:3rem;
-        width:4rem;
+        height:2rem;
+        width:7rem;
         
     }
 }
