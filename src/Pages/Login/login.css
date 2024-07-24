@@ -81,3 +81,9 @@ select:hover {
     border: none;
     border-radius: 5px;
 }
+@media screen and (max-width:600px){
+    .main__div-email div{
+        gap:5px;
+        width:300px;
+    }
+}
