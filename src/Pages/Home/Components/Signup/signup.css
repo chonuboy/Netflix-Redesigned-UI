@@ -17,7 +17,7 @@ input,button,select{
 
 .bg {
     background: url("https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg") center no-repeat;
-    height: 108vh;
+    height: 100vh;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ input,button,select{
     width: 100%;
     position: absolute;
     bottom: 0;
-    top: 103%;
+    top: 100vh;
 }
 @media screen and (max-width:600px) {
     .all {
@@ -118,7 +118,7 @@ input,button,select{
     }
     
     .bg{
-        width: 95%;
+        width: 100%;
         height: 100%;
     }
     
