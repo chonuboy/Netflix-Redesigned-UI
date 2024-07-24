@@ -46,6 +46,7 @@ select:hover {
 .main__content,.main__div-email{
     z-index: 2;
     margin:auto;
+    padding:5px;
 }
 .main__div-email input{
     width: 20rem;
@@ -79,14 +80,11 @@ select:hover {
     border-radius: 5px;
 }
 @media screen and (max-width:600px){
-    .main__div-email{
-        padding:5px;
-        text-align:centre;
-        gap:10px;
-    }
     .main__div-email div{
         gap:10px;
         width:250px;
+        position:relative;
+        right:20px;
     }
     .main__div-email input{
         height:2rem;
