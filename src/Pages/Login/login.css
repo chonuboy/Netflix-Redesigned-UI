@@ -64,9 +64,6 @@ select:hover {
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
     align-items: center;
 }
 .main__div-email div{
@@ -83,8 +80,11 @@ select:hover {
 }
 @media screen and (max-width:600px){
     .main__div-email div{
+        margin:0 auto;
         gap:5px;
         width:250px;
-        height:20px;  
     }
+    .main__div-email input{
+        width:10rem;
+        padding:5px;
 }
