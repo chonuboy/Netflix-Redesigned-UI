@@ -6,6 +6,7 @@
     flex-direction: column;
     text-align: center;
     height: 40rem;
+    width:99%;
     margin: 0 auto;
 }
 .img_gradient{
