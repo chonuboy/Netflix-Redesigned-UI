@@ -3,7 +3,8 @@
     justify-content:center;
     align-items:center;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 .single{
     display: flex;
@@ -33,5 +34,8 @@
         padding: 20px;
         font-size: small;
         backdrop-filter: blur(8px);
+    }
+    .img-bg{
+        height:100vh;
     }
 }
