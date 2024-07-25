@@ -2,8 +2,8 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    padding: 30px;
-    height: 100%;
+    padding: 20px;
+    height: 100vh;
 }
 .single{
     display: flex;
@@ -33,8 +33,5 @@
         padding: 20px;
         font-size: small;
         backdrop-filter: blur(8px);
-    }
-    .img-bg{
-        padding-bottom: 100px;
     }
 }
